@@ -1,0 +1,775 @@
+img {
+    max-width: 100%;
+  }
+
+  /* headerã®åˆã‚ */
+  header {
+    height: 70px;
+    border-bottom: 2px solid #272343;
+    /* background-color: antiquewhite; */
+   padding: 20px;
+    font-size:0.6rem ;
+
+  }
+  .header-inner {
+    max-width: 800px;
+
+    /* background-color: aqua; */
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+    margin-right:auto ;
+  margin-left: auto;
+
+  }
+  .gloval-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+    color: #272343;
+  }
+  .gloval-nav li {
+    margin-left: 15px;
+
+  }
+  .gloval-nav li i {
+    font-size: 1rem;
+  }
+  .gloval-nav li a:hover {
+  opacity: 0.7;
+  }
+  .seetodaystodo a {
+    background-color: #272343;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .creattodo-btn a{
+    display: inline-block;
+    background-color: #FFD803;
+    padding: 10px;
+    border-radius: 10px;
+
+  }
+  .creattodo-btn a:hover {
+    opacity: 0.7;
+  }
+  .title-logo a img {
+   width: 100px;
+
+  }
+
+
+  .title-logo {
+    width: 100px;
+    height: 40px;
+    /* background-color: rgb(235, 215, 250); */
+    margin-right: 30px;
+  }
+  .title-logo:hover {
+    opacity: 0.7;
+  }
+
+  #hamburger i{
+    display: none;
+  }
+
+  /* headerã®çµ‚ã‚ã‚Š */
+
+
+
+  /* mainå§‹ã¾ã‚Š */
+  .bg-skyblue {
+    background-color:#E3F6F5 ;
+
+    padding: 30px 4% 30px 4%;
+  }
+
+  .bread {
+
+    max-width: 1080px;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    color: rgb(81, 81, 81);
+  }
+  .mypage-main {
+    max-width: 1000px;
+
+    margin: 40px auto 60px auto;
+  }
+  .usernameandimage {
+    /* background-color: rgb(199, 140, 140); */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: start;
+    margin-bottom: 70px;
+  }
+
+  .usernameandimage img {
+    width:100px;
+    height: 100px;
+    margin-right: 30px;
+    border-radius: 50%;
+    background-color: #424242;
+  }
+
+
+  .username{
+    border: 2px solid rgb(95, 95, 95);
+    resize: none;
+    display: block;
+    width: 70%;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+  }
+  .indextable {
+    background-color: #E3F6F5;
+  }
+  .indextable tr {
+    background-color: #ccc;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .calendar-container {
+    background-color: #ffee8d;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .yarrow {
+    display: flex;
+    /* background-color: #424242; */
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  #calendar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.today {
+  background-color:rgb(227, 184, 212) ;
+}
+
+#calendar section {
+    /* margin: 10px; */
+    /* background-color: #6fb5ff; */
+    width: 100%;
+}
+
+#calendar h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#calendar table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#calendar td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: center;
+}
+
+#calendar td:first-child {
+    color: red;
+}
+
+#calendar td:last-child {
+    color: royalblue;
+}
+
+#calendar td.is-disabled {
+    color: #ccc;
+}
+  .choseyourstudy{
+    background-color: #fff;
+    max-width: 1000px;
+    text-align: center;
+  /* border-radius: 15px; */
+    padding: 20px;
+    margin: 0 auto 50px auto;
+    border-top: 2px solid #6fb5ff;
+  }
+  .choseyourstudy h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom:30px ;
+  }
+
+  .choseyourstudy-outer {
+    background-color: #ffee8d;
+    padding: 20px;
+    text-align: center;
+  }
+  .choseyourstudy-outer h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+  }
+  .choseyourstudy-inner {
+    background-color: #fff;
+  padding: 20px;
+  }
+
+  .chosetimetable {
+    border-collapse: collapse;
+    text-align: center;
+    margin:  0 auto;
+  width: 100%;
+  }
+
+  .chosetimetable td,.chosetimetable th {
+    border: solid 1px;
+  padding: 10px;
+    text-align: center;
+  }
+  .width30 {
+    width: 30%;
+  }
+
+  .width70 {
+     width: 70%;
+  }
+  .studytimeinfo-content {
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
+    padding: 40px 20px;
+    border-top: 2px solid #6fb5ff;
+  }
+  .studytimeinfo-content h2 {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+  }
+  .studytimeinfo {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .studytimeinfo th,.studytimeinfo td {
+    border: solid 1px;
+    padding: 5px;
+    text-align: center;
+  }
+  .plans {
+    background-color: #fbdadc;
+  }
+  .actual {
+    background-color: #cde5ff;
+  }
+  .gap {
+    background-color: #faf3d0;
+  }
+
+
+  .adbar {
+    margin-top: 40px;
+    max-width: 1080px;
+    max-height: 150px;
+
+  /* background-color: #272343; */
+  margin-bottom:  60px;
+  margin-right:auto ;
+  margin-left: auto;
+  position: relative;
+  }
+  .ad-left {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 20%;
+    height: 10%;
+
+  }
+  .adbar img{
+  width: 1080px;
+  height: 150px;
+
+  }
+  .ad-left-text {
+    font-size: 1.2rem;
+    color: rgb(115, 115, 115);
+    font-weight: bold;
+    margin-bottom: 8px;
+    line-height: 1.8rem;
+  }
+
+  .ad-left-btn {
+    background-color: #FFD803;
+    display: inline-block;
+    color: #272343;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+
+
+  }
+  .ad-left-btn:hover {
+    background-color: #272343;
+    color: #FFD803;
+  }
+
+  /* mainçµ‚
+  zã‚ã‚Š */
+
+
+  /* ãƒœã‚¿ãƒ³ã®ã‚¹ã‚¿ã‚¤ãƒ« */
+  .page-top {
+    /* buttonã‚¿ã‚°ã®ãƒªã‚»ãƒƒãƒˆCSS */
+    border: none;
+    cursor: pointer;
+    /* ãƒœã‚¿ãƒ³ã®è£…é£¾ */
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 100;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #272343;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+
+  /* çŸ¢å°ã®ã‚¹ã‚¿ã‚¤ãƒ« */
+  .page-top::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    margin-bottom: -6px;
+    border-top: solid 3px #fff;
+    border-right: solid 3px #fff;
+    transform: rotate(-45deg);
+  }
+
+  /* ãƒ›ãƒãƒ¼æ™‚ã®ã‚¹ã‚¿ã‚¤ãƒ« */
+  .page-top:hover {
+    transform: scale(1.1);
+  }
+
+
+
+  /* footerã®å§‹ã¾ã‚Š */
+  footer {
+    max-width: 800px;
+    /* background-color: antiquewhite; */
+    margin: 0 auto;
+    padding: 0 40px;
+
+  }
+  .footer-logo img{
+    width: 130px;
+    /* background-color: #272343; */
+  }
+  .footer-logo:hover {
+    opacity: 0.7;
+  }
+  .footer-inner-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(135, 135, 135);
+    border-bottom: 1px solid rgb(135, 135, 135);
+    height: 200px;
+  }
+  .contactgo {
+    border: 3px solid rgb(138, 138, 138);
+    border-radius:10px ;
+    width: 170px;
+    padding: 10px;
+    color: #272343;
+  }
+  .contactgo p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  .contactgo a {
+  font-size: 0.6rem;
+  display: inline-block;
+  background-color: #FFD803;
+
+  padding: 10px 30px;
+  border-radius: 16px;
+
+  }
+  .contactgo a:hover {
+    background-color: #272343;
+    color:#FFD803;
+  }
+
+  .footer-inner-bottom {
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+
+  @media screen and (max-width: 800px){
+
+
+  header {
+    height: 110px;
+  }
+
+  .header-inner {
+    max-width: 700px;
+    display: block;
+
+    /* background-color: aqua; */
+
+
+    margin-right:auto ;
+   margin-left: auto;
+
+  }
+  .gloval-nav {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+    color: #272343;
+  }
+
+
+
+  .title-logo a img {
+   width: 150px;
+
+  }
+
+
+  .title-logo {
+    width: 100px;
+    height: 40px;
+    /* background-color: #272343; */
+    margin: 0 auto 10px auto;
+
+  }
+
+
+  .adbar {
+    margin-top: 40px;
+    max-width: 800px;
+    height: 60px;
+  /* background-color: #272343; */
+  margin-bottom:  100px;
+  margin-right:auto ;
+  margin-left: auto;
+  position: relative;
+  }
+
+  .adbar img{
+  width: 800px;
+  height: 100px;
+
+
+  }
+  .ad-left-text {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    line-height: 1.5rem;
+  }
+
+  .ad-left-btn {
+
+    padding: 5px;
+    font-size: 0.7rem;
+  }
+
+
+  .ad-left {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 30%;
+    height: 10%;
+
+
+  }
+
+
+  .thisperiodcalendar th,.thisperiodcalendar td {
+    text-align: center;
+    padding: 20px 5px;
+  }
+  .dayofweek th {
+    font-size: 0.8rem;
+  }
+
+  .studytimeinfo th,.studytimeinfo td {
+
+  padding: 10px;
+    font-size: 0.8rem;
+  }
+
+  }
+
+  @media screen and (max-width: 500px) {
+  header {
+    height: 70px;
+  }
+
+
+  .header-inner {
+    /* max-width: 1020px;  */
+
+    /* background-color: aqua; */
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right:auto ;
+  margin-left: auto;
+  /* background-color: #272343; */
+
+  }
+  .gloval-nav {
+    display: none;
+  }
+
+  .main-container {
+
+    display: block;
+
+
+
+   /* background-color: #272343; */
+   margin-bottom: 50px;
+  }
+
+  .gloval-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff6c2;
+    display: none;
+
+  }
+  .gloval-nav a {
+    font-size: 1rem;
+    /* border: 1px solid #fff; */
+  }
+  .gloval-nav li {
+    /* border: 1px solid #FFD803; */
+    margin: 0 auto 20px auto;
+
+  }
+  .gloval-nav li:first-child {
+    margin-top: 30%;
+
+  }
+  .menu__item {
+    width: 100%;
+    height: auto;
+    padding: .5em 1em;
+    text-align: center;
+    color: rgb(78, 78, 78);
+    box-sizing: border-box;
+  }
+  .creattodo-btn a{
+  background-color: transparent;
+  border:2px solid #272343
+
+  }
+  #hamburger i{
+    display: block;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+    top: 5px;
+    right: 20px;
+    /* background-color: #FFD803; */
+  }
+  .title-logo {
+
+    /* background-color: #272343; */
+    margin: 0 ;
+
+  }
+  .ad-left-text {
+    font-size: 0.7rem;
+    color: rgb(115, 115, 115);
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 1rem;
+  }
+  .ad-left-btn {
+
+
+    font-weight: bold;
+    padding:3px;
+
+    font-size: 0.5rem;
+
+
+  }
+  .ad-left {
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    width: 35%;
+    height: 10%;
+
+  }
+
+  .contactgo {
+    border: 3px solid rgb(138, 138, 138);
+    border-radius:10px ;
+    width: 170px;
+    padding: 10px;
+    color: #272343;
+  }
+  .contactgo p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  .contactgo a {
+  font-size: 0.6rem;
+  display: inline-block;
+  background-color: #FFD803;
+
+  padding: 10px 30px;
+  border-radius: 16px;
+
+  }
+  .footer-logo img{
+  width: 100px;
+  /* background-color: #272343; */
+  }
+  .contactgo {
+  border: 3px solid rgb(138, 138, 138);
+  border-radius:10px ;
+  width: 140px;
+  padding: 10px;
+  color: #272343;
+  }
+  .contactgo p {
+  font-size: 0.7rem;
+  margin-bottom: 10px;
+  }
+  .contactgo a {
+  font-size: 0.6rem;
+  display: inline-block;
+  background-color: #FFD803;
+
+  padding: 10px 30px;
+  border-radius: 16px;
+
+  }
+  .width30 {
+    width: 40%;
+  }
+
+  .width70 {
+     width: 60%;
+  }
+
+  .thisperiodcalendar-inner h1 {
+    line-height: 60px;
+    font-size: 1.2rem;
+    /* background-color: #1a1a1a; */
+  }
+
+  .thisperiodcalendar th,.thisperiodcalendar td {
+    text-align: center;
+    padding: 10px;
+
+  }
+
+
+  .todaystimetable-container {
+    padding: 20px 0;
+
+  }
+
+    .thisperiodcalendar-container {
+
+      text-align: center;
+      padding: 40px 0px;
+      max-width: 1020px;
+      margin: 0 auto;
+
+    }
+    .thisperiodcalendar-container h3 {
+    font-size: 1.1rem;
+
+
+    }
+    .thisperiodcalendar-container p {
+
+      padding-right: 10px;
+
+    }
+    .chosetimetable th,.chosetimetable td {
+      font-size: 0.8em;
+      padding: 7px;
+    }
+
+    .studytimeinfo th,.studytimeinfo td {
+      border: solid 1px;
+      padding: 0px;
+      text-align: center;
+      font-size: 0.5rem;
+    }
+    .choseyourstudy {
+      padding: 30px 0;
+    }
+    .studytimeinfo-content {
+      padding: 30px 5px;
+    }
+    .studytimeinfo-content h2 {
+      padding-left: 20px;
+    }
+    .thisperiodcalendar-inner {
+
+    padding: 40px 0;
+
+    }
+    .thisperiodcalendar-inner h1 {
+
+      line-height: 50px;
+      text-align: center;
+      font-size: 1.2rem;
+      /* background-color: #1a1a1a; */
+
+    }
+    .thisperiodcalendar {
+
+    width: 100%;
+    /* background-color: #6fb5ff; */
+    margin: 0 auto;
+    }
+    .dayofweek th {
+      font-size: 0.7rem;
+    }
+
+  .studytimeinfo th,.studytimeinfo td {
+    padding: 7px;
+
+    font-size: 0.7rem;
+  }
+  }

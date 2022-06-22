@@ -1,0 +1,1165 @@
+img {
+    max-width: 100%;
+  }
+
+  /* headerã®åˆã‚ */
+  header {
+    height: 70px;
+    border-bottom: 2px solid #272343;
+    /* background-color: antiquewhite; */
+   padding: 20px;
+    font-size:0.6rem ;
+
+  }
+  .header-inner {
+    max-width: 800px;
+
+    /* background-color: aqua; */
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+    margin-right:auto ;
+  margin-left: auto;
+
+  }
+  .gloval-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+    color: #272343;
+  }
+  .gloval-nav li {
+    margin-left: 15px;
+
+  }
+  .gloval-nav li i {
+    font-size: 1rem;
+  }
+  .gloval-nav li a:hover {
+  opacity: 0.7;
+  }
+  .seetodaystodo a {
+    background-color: #272343;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .creattodo-btn a{
+    display: inline-block;
+    background-color: #FFD803;
+    padding: 10px;
+    border-radius: 10px;
+
+  }
+  .creattodo-btn a:hover {
+    opacity: 0.7;
+  }
+  .title-logo a img {
+   width: 100px;
+
+  }
+
+
+  .title-logo {
+    width: 100px;
+    height: 40px;
+    /* background-color: rgb(235, 215, 250); */
+    margin-right: 30px;
+  }
+  .title-logo:hover {
+    opacity: 0.7;
+  }
+
+  #hamburger i{
+    display: none;
+  }
+
+  /* headerã®çµ‚ã‚ã‚Š */
+
+
+  #loginblock {
+    background-color: #2f6378;
+  padding: 15px;
+
+   text-align: center;
+    /* display: none; */
+  }
+  #loginblock p {
+    color: #ffffff;
+  }
+  /* mainå§‹ã¾ã‚Š */
+  .bg-skyblue {
+    background-color:#E3F6F5 ;
+
+    padding: 30px 10px 30px 10px;
+  }
+
+  .bread {
+
+    max-width: 1080px;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    color: rgb(81, 81, 81);
+  }
+  .userandtodo {
+    display: flex;
+    /* background-color: #FFD803; */
+
+    text-align: center;
+    max-width: 1000px;
+    margin: 50px auto 50px auto;
+
+   justify-content: center;
+   align-items:start;
+
+  }
+
+  .userinfo {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+
+  }
+  #changeimg{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+
+   margin-bottom: 10px;
+  }
+
+
+  /* #changeimages {
+    background-color: #aefefa;
+    border: 2px solid #aefefa;
+    color: #424242;
+    font-size: 1.1rem;
+    border-radius: 15px;
+
+    padding: 6px;
+   display: block;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  #changeimages:hover {
+    border: 2px solid #aefefa;
+    background-color: #ffffff;
+  } */
+
+  #changeimages input[type = "file"] {
+    display: none;
+  }
+
+  .usernameandimage {
+    /* background-color: rgb(199, 140, 140); */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: start;
+    margin-bottom: 70px;
+  }
+
+  .usernameandimage img {
+    width:100px;
+    height: 100px;
+    margin-right: 30px;
+    border-radius: 50%;
+    background-color: #424242;
+  }
+
+
+  .username{
+    border: 2px solid rgb(95, 95, 95);
+    resize: none;
+    display: block;
+    width: 70%;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+  }
+  .todoinfo {
+    background-color: #fff;
+    display: flex;
+    margin-left: 20px;
+    border-top: 2px solid #aefefa;
+    padding:  20px;
+    max-width: 800px;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .todo{
+    /* background-color: #3187ff; */
+
+    border-collapse: collapse;
+    min-width: 300px;
+
+  }
+
+  .todo th,.todo td {
+    border: solid 1px;
+    padding: 5px;
+    text-align: center;
+  }
+
+
+
+  .reminder {
+    background-color: rgb(207, 207, 207);
+   padding: 30px 10px;
+   border-radius: 10px;
+   margin-left: 10px;
+   height: 80px;
+
+  }
+  .reminder p {
+    font-size: 0.8rem;
+  }
+
+  .timerandothers {
+    /* background-color: #272343; */
+    width: 130px;
+    margin-left: 10px;
+  }
+  .timer{
+    display: inline-block;
+    background-color: #FFB01A;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+  }
+  .timer:hover {
+    opacity: 0.7;
+  }
+
+  .timerandothers a {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: #3187ff;
+  }
+
+  .timeron {
+    max-width: 750px;
+    background-color: #fff;
+    display: flex;
+    margin: 0 auto 40px auto;
+    padding: 30px;
+    justify-content: space-around;
+    display: none;
+  }
+
+  .timer-display {
+    display: flex;
+    margin-bottom:20px;
+
+  }
+
+  .timer-display h2{
+  font-weight: bold;
+  margin-right: 20px;
+  }
+
+  .timer-display p {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .timer-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .timer-btn li button{
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 20px;
+    border-radius: 10px;
+
+  }
+  .startbtn {
+    background-color: red;
+  }
+
+  .stopbtn {
+    background-color: blue;
+
+  }
+  .resettbtn {
+    background-color: #FFB01A;
+
+  }
+
+  .timer-left {
+    margin-right: 20px;
+    /* background-color: #1a1a1a; */
+  }
+
+  .details p {
+    font-size: 0.8rem;
+  }
+  .timer-right p{
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  }
+
+  .todaystimetable-container {
+    background-color: #fff;
+    max-width: 1020px;
+    text-align: center;
+  border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto 30px auto;
+  }
+  .todaystimetable-container h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+
+  }
+
+  .todaystimetable-outer {
+    background-color: #ffee8d;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .todaystimetable-outer h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+  }
+  .todaystimetable {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .timetable {
+    border-collapse: collapse;
+    text-align: center;
+    margin:  0 auto;
+  width: 100%;
+  }
+
+  .timetable td,.timetable th {
+    border: solid 1px;
+  padding: 10px;
+    text-align: center;
+
+  }
+
+  .width30 {
+    width: 30%;
+  }
+
+  .width70 {
+    width: 70%;
+  }
+  .editlayout {
+    /* background-color: #272343; */
+    text-align: right;
+    padding: 10px 30px 0 0;
+
+  }
+  .edit {
+    color: #3187ff;
+
+  }
+  .delete {
+    text-align: center;
+    /* background-color: #2f6378; */
+    margin-bottom: 20px;
+  }
+
+  .deletebtn {
+    background-color: #ff958d;
+    padding: 5px 50px;
+    display: inline-block;
+  }
+
+  .backindex {
+  color: #272343;
+  }
+
+
+  .thisperiodcalendar-container {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 1020px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+  }
+  .thisperiodcalendar-container h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  }
+  .thisperiodcalendar-container p {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+
+
+  .thisperiodcalendar-inner {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #f6f5f4;
+    color: #1a1a1a;
+  padding: 50px 0;
+
+  }
+  .thisperiodcalendar-inner h1 {
+
+    line-height: 80px;
+    text-align: center;
+    font-size: 1.5rem;
+    /* background-color: #1a1a1a; */
+
+  }
+  .thisperiodcalendar {
+
+  width: 90%;
+  /* background-color: #6fb5ff; */
+  margin: 0 auto;
+  }
+  .thisperiodcalendar th,.thisperiodcalendar td {
+    text-align: center;
+    padding: 30px 10px;
+  }
+  .thisperiodcalendar th {
+
+    font-size:1.1rem ;
+  }
+  .thisperiodcalendar td {
+    font-weight: bold;
+  }
+  .day * :first-child {
+    color: #ff838b;
+  }
+  .day * :last-child {
+    color: #6fb5ff;
+  }
+
+  .adbar {
+    margin-top: 40px;
+    max-width: 1080px;
+    max-height: 150px;
+
+  /* background-color: #272343; */
+  margin-bottom:  60px;
+  margin-right:auto ;
+  margin-left: auto;
+  position: relative;
+  }
+  .ad-left {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 20%;
+    height: 10%;
+
+  }
+  .adbar img{
+  width: 1080px;
+  height: 150px;
+
+  }
+  .ad-left-text {
+    font-size: 1.2rem;
+    color: rgb(115, 115, 115);
+    font-weight: bold;
+    margin-bottom: 8px;
+    line-height: 1.8rem;
+  }
+
+  .ad-left-btn {
+    background-color: #FFD803;
+    display: inline-block;
+    color: #272343;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+
+
+  }
+  .ad-left-btn:hover {
+    background-color: #272343;
+    color: #FFD803;
+  }
+
+  /* mainçµ‚
+  zã‚ã‚Š */
+
+
+  /* ãƒœã‚¿ãƒ³ã®ã‚¹ã‚¿ã‚¤ãƒ« */
+  .page-top {
+    /* buttonã‚¿ã‚°ã®ãƒªã‚»ãƒƒãƒˆCSS */
+    border: none;
+    cursor: pointer;
+    /* ãƒœã‚¿ãƒ³ã®è£…é£¾ */
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 100;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #272343;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+
+  /* çŸ¢å°ã®ã‚¹ã‚¿ã‚¤ãƒ« */
+  .page-top::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    margin-bottom: -6px;
+    border-top: solid 3px #fff;
+    border-right: solid 3px #fff;
+    transform: rotate(-45deg);
+  }
+
+  /* ãƒ›ãƒãƒ¼æ™‚ã®ã‚¹ã‚¿ã‚¤ãƒ« */
+  .page-top:hover {
+    transform: scale(1.1);
+  }
+
+
+
+
+  /* footerã®å§‹ã¾ã‚Š */
+  footer {
+    max-width: 800px;
+    /* background-color: antiquewhite; */
+    margin: 0 auto;
+    padding: 0 40px;
+
+  }
+  .footer-logo:hover {
+    opacity: 0.7;
+  }
+  .footer-logo img{
+    width: 130px;
+    /* background-color: #272343; */
+  }
+  .footer-inner-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(135, 135, 135);
+    border-bottom: 1px solid rgb(135, 135, 135);
+    height: 200px;
+  }
+  .contactgo {
+    border: 3px solid rgb(138, 138, 138);
+    border-radius:10px ;
+    width: 170px;
+    padding: 10px;
+    color: #272343;
+  }
+  .contactgo p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  .contactgo a {
+  font-size: 0.6rem;
+  display: inline-block;
+  background-color: #FFD803;
+
+  padding: 10px 30px;
+  border-radius: 16px;
+
+  }
+  .contactgo a:hover {
+    background-color: #272343;
+    color:#FFD803;
+  }
+
+  .footer-inner-bottom {
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+
+  @media screen and (max-width: 800px){
+
+
+  header {
+    height: 110px;
+  }
+
+  .header-inner {
+    max-width: 700px;
+    display: block;
+
+    /* background-color: aqua; */
+
+
+    margin-right:auto ;
+   margin-left: auto;
+
+  }
+  .gloval-nav {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+    color: #272343;
+  }
+
+
+
+  .title-logo a img {
+   width: 150px;
+
+  }
+
+
+  .title-logo {
+    width: 100px;
+    height: 40px;
+    /* background-color: #272343; */
+    margin: 0 auto 10px auto;
+
+  }
+
+
+  .adbar {
+    margin-top: 40px;
+    max-width: 800px;
+    height: 60px;
+  /* background-color: #272343; */
+  margin-bottom:  100px;
+  margin-right:auto ;
+  margin-left: auto;
+  position: relative;
+  }
+
+  .adbar img{
+  width: 800px;
+  height: 100px;
+
+
+  }
+  .ad-left-text {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    line-height: 1.5rem;
+  }
+
+  .ad-left-btn {
+
+    padding: 5px;
+    font-size: 0.7rem;
+  }
+
+
+  .ad-left {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 30%;
+    height: 10%;
+
+
+  }
+
+
+
+  .userandtodo {
+    display: block;
+    /* background-color: #FFD803; */
+
+    text-align: left;
+    max-width: 1000px;
+    margin: 50px auto 50px auto;
+
+
+
+  }
+  .userinfo {
+    background-color: #fff;
+    padding: 10px;
+    width: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+
+  .todoinfo {
+    background-color: #fff;
+
+  margin-left: auto;
+  margin-right: auto;
+    border-top: 2px solid #aefefa;
+    padding: 20px;
+
+    /* max-width: px; */
+    justify-content: baseline;
+
+
+  }
+
+
+
+  .todo {
+  margin-right: 3%;
+    min-width: 200px;
+
+
+  }
+
+  .todo th,.todo td {
+    border: solid 1px;
+    padding: 5px 10px;
+    text-align: center;
+  }
+
+
+
+  .reminder {
+    background-color: rgb(207, 207, 207);
+   padding: 30px 10px;
+   border-radius: 10px;
+   margin-left: 0px;
+
+  margin-right: 3%;
+
+
+
+  }
+  .reminder p {
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+
+  .timerandothers {
+    /* background-color: #272343; */
+    width: 100px;
+    margin-left: 0px;
+  }
+  .timer{
+    display: inline-block;
+    background-color: #FFB01A;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-size: 0.7rem;
+  }
+
+  .timerandothers a {
+    display: inline-block;
+    font-size: 0.5rem;
+    color: #3187ff;
+  }
+  .thisperiodcalendar th,.thisperiodcalendar td {
+    text-align: center;
+    padding: 20px 5px;
+  }
+  .dayofweek th {
+    font-size: 0.8rem;
+  }
+
+
+  }
+
+  @media screen and (max-width: 500px) {
+  header {
+    height: 70px;
+  }
+
+
+  .header-inner {
+    /* max-width: 1020px;  */
+
+    /* background-color: aqua; */
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right:auto ;
+  margin-left: auto;
+  /* background-color: #272343; */
+
+  }
+  .gloval-nav {
+    display: none;
+  }
+
+  .main-container {
+
+    display: block;
+
+
+
+   /* background-color: #272343; */
+   margin-bottom: 50px;
+  }
+
+  .gloval-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff6c2;
+    display: none;
+
+  }
+  .gloval-nav a {
+    font-size: 1rem;
+    /* border: 1px solid #fff; */
+  }
+  .gloval-nav li {
+    /* border: 1px solid #FFD803; */
+    margin: 0 auto 20px auto;
+
+  }
+  .gloval-nav li:first-child {
+    margin-top: 30%;
+
+  }
+  .menu__item {
+    width: 100%;
+    height: auto;
+    padding: .5em 1em;
+    text-align: center;
+    color: rgb(78, 78, 78);
+    box-sizing: border-box;
+  }
+  .creattodo-btn a{
+  background-color: transparent;
+  border:2px solid #272343
+
+  }
+  #hamburger i{
+    display: block;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+    top: 5px;
+    right: 20px;
+    /* background-color: #FFD803; */
+  }
+  .title-logo {
+
+    /* background-color: #272343; */
+    margin: 0 ;
+
+  }
+
+
+
+  .ad-left-text {
+    font-size: 0.7rem;
+    color: rgb(115, 115, 115);
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 1rem;
+  }
+  .ad-left-btn {
+
+
+    font-weight: bold;
+    padding:3px;
+
+    font-size: 0.5rem;
+
+
+  }
+  .ad-left {
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    width: 35%;
+    height: 10%;
+
+  }
+
+  .contactgo {
+    border: 3px solid rgb(138, 138, 138);
+    border-radius:10px ;
+    width: 170px;
+    padding: 10px;
+    color: #272343;
+  }
+  .contactgo p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  .contactgo a {
+  font-size: 0.6rem;
+  display: inline-block;
+  background-color: #FFD803;
+
+  padding: 10px 30px;
+  border-radius: 16px;
+
+  }
+  .footer-logo img{
+  width: 100px;
+  /* background-color: #272343; */
+  }
+  .contactgo {
+  border: 3px solid rgb(138, 138, 138);
+  border-radius:10px ;
+  width: 140px;
+  padding: 10px;
+  color: #272343;
+  }
+  .contactgo p {
+  font-size: 0.7rem;
+  margin-bottom: 10px;
+  }
+  .contactgo a {
+  font-size: 0.6rem;
+  display: inline-block;
+  background-color: #FFD803;
+
+  padding: 10px 30px;
+  border-radius: 16px;
+
+  }
+
+
+  .userinfo {
+    background-color: #fff;
+    padding: 10px;
+    min-width: 150px;
+  text-align: center;
+  margin-bottom: 40px;
+  }
+
+  #changeimg{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+
+    margin-bottom: 20px;
+   }
+
+
+  .userinfo p {
+    font-size: 0.7rem;
+  }
+
+  .todoinfo {
+  display: block;
+   padding: 10px;
+  }
+  .todo {
+    min-width: 200px;
+    margin: 10px auto 20px auto;
+  }
+
+  .todo th,.todp td {
+    border: solid 1px;
+    padding: 5px 10px;
+    text-align: center;
+  }
+
+
+
+  .reminder {
+
+   padding: 10px;
+   border-radius: 10px;
+   margin-left: 0px;
+  max-width: 300px;
+  margin: 0 auto 20px auto;
+
+
+  }
+  .reminder p {
+
+    font-size: 1rem;
+    font-weight: bold;
+    /* background-color: #3187ff; */
+    text-align: center;
+  }
+
+  .timerandothers {
+    /* background-color: #272343; */
+    width: 200px;
+
+    margin: 0 auto ;
+
+    text-align: center;
+  }
+  .timer{
+    display: inline-block;
+    background-color: #FFB01A;
+    color: #fff;
+    font-weight: bold;
+    padding:  10px;
+    border-radius: 15px;
+    font-size: 1rem;
+    width: 200px;
+    margin: 0 auto 10px auto;
+  }
+
+  .timerandothers a {
+    display: inline-block;
+    font-size: 0.9rem;
+    color: #3187ff;
+  }
+
+  .timeron {
+
+    display: flex;
+    margin: 0 auto 40px auto;
+    padding: 30px;
+    justify-content: space-around;
+    display: none;
+   /* background-color: #1a1a1a; */
+   padding-right: 0;
+  }
+
+  .timer-display {
+    display: flex;
+    margin-bottom:20px;
+
+  }
+
+  .timer-display h2{
+  font-weight: bold;
+  margin-right: 20px;
+  }
+
+  .timer-display p {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .timer-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #6fb5ff; */
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 300px;
+  }
+  .timer-btn li button{
+    font-size: 1rem;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 0px;
+    border-radius: 10px;
+
+  }
+
+  .startbtn {
+    background-color: red;
+  }
+
+  .stopbtn {
+    background-color: blue;
+
+  }
+  .resettbtn {
+    background-color: #FFB01A;
+
+  }
+
+  .thisperiodcalendar-inner h1 {
+
+    line-height: 60px;
+
+    font-size: 1.2rem;
+    /* background-color: #1a1a1a; */
+
+  }
+
+  .thisperiodcalendar th,.thisperiodcalendar td {
+    text-align: center;
+    padding: 20px 0px;
+  }
+
+
+  .todaystimetable-container {
+
+
+    padding: 20px 0;
+
+  }
+
+    .thisperiodcalendar-container {
+
+      text-align: center;
+      padding: 40px 0px;
+      max-width: 1020px;
+      margin: 0 auto;
+
+    }
+    .thisperiodcalendar-container h3 {
+    font-size: 1.1rem;
+
+
+    }
+    .thisperiodcalendar-container p {
+
+      padding-right: 10px;
+    }
+
+
+    .thisperiodcalendar-inner {
+
+    padding: 40px 0;
+
+    }
+    .thisperiodcalendar-inner h1 {
+
+      line-height: 50px;
+      text-align: center;
+      font-size: 1.2rem;
+      /* background-color: #1a1a1a; */
+
+    }
+    .thisperiodcalendar {
+
+    width: 100%;
+    /* background-color: #6fb5ff; */
+    margin: 0 auto;
+    }
+    .dayofweek th {
+      font-size: 0.7rem;
+    }
+
+    .timetable td {
+      font-size: 0.9rem;
+      padding: 10px 5px;
+    }
+
+    .width30 {
+      width: 40%;
+    }
+
+    .width70 {
+       width: 60%;
+    }
+
+  }

@@ -4,7 +4,7 @@
     @endsection
 
 @section('content')
-<form method="POST" action="{{ route('contact.send') }}">
+<form method="POST" action="{{ route('contact.confrim') }}">
     @csrf
 
     <label>メールアドレス</label>

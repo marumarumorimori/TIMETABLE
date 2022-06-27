@@ -14,7 +14,7 @@ class ContactController extends Controller
     public function index()
     {
         //フォーム入力画ページのviewを表示
-        return view('contact.contact');
+        return view('contact/contact');
     }
 
 

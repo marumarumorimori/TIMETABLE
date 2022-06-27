@@ -57,7 +57,7 @@
             <a href="afterlogintop.html" class="footer-logo"><img src="{{ url('image/logo.png') }}"></a>
             <div class="contactgo">
                 <p>TIMETABLEについてのご意見をお願いします。</p>
-                <a href="{{ url('/contact/contact') }}">意見を書く</a>
+                <a href="{{ route('contact.index') }}">意見を書く</a>
             </div>
         </div>
         <div class="footer-inner-bottom">

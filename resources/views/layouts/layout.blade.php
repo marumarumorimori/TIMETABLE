@@ -55,10 +55,6 @@
     <footer>
         <div class="footer-inner-top">
             <a href="afterlogintop.html" class="footer-logo"><img src="{{ url('image/logo.png') }}"></a>
-            <div class="contactgo">
-                <p>TIMETABLEについてのご意見をお願いします。</p>
-                <a href="{{ route('contact.index') }}">意見を書く</a>
-            </div>
         </div>
         <div class="footer-inner-bottom">
             <p>&copy;TIMETABLE--2022</p>

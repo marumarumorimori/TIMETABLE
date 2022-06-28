@@ -44,11 +44,11 @@
                                     ログインする
                                 </button>
 
-                                @if (Route::has('password.request'))
+                                <!-- @if (Route::has('password.request'))
                                     <a class="l-forgetpass" href="{{ route('password.request') }}">
                                     パスワードを忘れた方
                                     </a>
-                                @endif
+                                @endif -->
                             </div>
 </div>
                         </div>

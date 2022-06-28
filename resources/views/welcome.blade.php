@@ -34,7 +34,7 @@
       <img src="image/adbar.png" class="adbar-img">
       <div class="ad-left">
         <p class="ad-left-text">簡単に時間割を<br>作れるアプリ</p>
-        <a href="" class="ad-left-btn">時間割を作成する</a>
+        <a href="{{ route('register') }}" class="ad-left-btn">時間割を作成する</a>
       </div>
     </div>
 
@@ -76,7 +76,7 @@
       <img src="image/adbar.png" class="adbar-img">
       <div class="ad-left">
         <p class="ad-left-text">簡単に時間割を<br>作れるアプリ</p>
-        <a href="" class="ad-left-btn">時間割を作成する</a>
+        <a href="{{ route('register') }}" class="ad-left-btn">時間割を作成する</a>
       </div>
     </div>
   </div>

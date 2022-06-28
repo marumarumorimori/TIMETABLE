@@ -39,12 +39,5 @@ Route::group(['prefix' => 'profile'],function() {
 
 });
 
-Route::group(['prefix' => 'contact'],function() {
-    Route::get('contact','ContactController@index')->name('contact.contact');
-    Route::post('comfirm' , 'ContactController@confirm')->name('contact.confirm');
-    Route::post('thanks', 'ContactController@send')->name('contact.send');
-
-
-});
 
 

@@ -21,7 +21,7 @@
 <div class="usernameandimage">
         <div>
         @if(Auth::user()->avatar)
-            <img src="{{asset('/storage/image/'.Auth::user()->avatar)}}" alt="profile_image" >
+            <img src="{{asset('/storage/image/'.Auth::user()->avatar)}}" >
         @endif
         </div>
         <p class="username"> {{ Auth::user()->name }}</p>

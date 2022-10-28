@@ -39,7 +39,7 @@ Javascript
 MySQL
 
 ### テーブル定義
-![TIMETABLEのER図](https://drive.google.com/file/d/1d-9c9E7Y4B9XVYfqJybipdAwQX3taeCH/view?usp=sharing)
+https://drive.google.com/file/d/1d-9c9E7Y4B9XVYfqJybipdAwQX3taeCH/view?usp=sharing
 
 
 ## アプリケーション機能

@@ -21,6 +21,8 @@ TIMETABLE
 ### 公開したアプリの URL
 https://lit-atoll-14221.herokuapp.com/
 
+メールアドレス：aaa@example.com
+パスワード：user1234
 
 ### 該当プロジェクトのリポジトリ URL
 https://github.com/marumarumorimori/TIMETABLE.git
